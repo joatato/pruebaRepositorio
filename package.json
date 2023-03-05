@@ -1,0 +1,16 @@
+{
+  "name": "primera-entrega-del-proyecto-final",
+  "version": "1.0.0",
+  "description": "Proyecto de un servidor que contiente los endpoints y servicios necesarios para gestionar los productos y carritos de compras en el e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app"
+  },
+  "author": "Joaquín Agüero",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}
